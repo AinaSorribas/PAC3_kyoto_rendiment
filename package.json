@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "pac1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.62.1"
+  },
+    "parcel": {
+      "transformers": {
+        "scss": {
+          "target": {
+            "browsers": ["last 2 versions", "IE 11"]
+          }
+        }
+      }
+    }
+}
+  
+
