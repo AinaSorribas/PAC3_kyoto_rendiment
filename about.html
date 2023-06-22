@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/estils.css">
 </head>
 <body class="bodywhat">
-    <script src="./src/index.js"></script>
+    <script src="./src/index.js" async></script>
     <header>
         <nav class="navfosc">
             <div class="logodiv">
@@ -49,17 +49,17 @@
                 sizes="(min-width: 1024px) 1280px,
                             (min-width: 768px) 512px,
                             256px"
-                src="./src/img/kyoto_river.jpg" alt="Kyoto by the river">
+                src="./src/img/kyoto_river.jpg" alt="Kyoto by the river" loading="lazy">
             <p class="detallp">Today, Kyoto is a bustling modern city that also preserves its rich cultural heritage. It is a popular tourist destination and home to many universities and research institutes.</p>
             <p class="detallp">Want to know how to write Kyoto in Japanese?</p>
             <button onclick="funcioclic()">Yes</button>
             <p class="detallp" id="kyotokanji"></p>
             <div class="sushitable">
                 <div class="animat">
-                    <img class="sushi" src="./src/img/sushi.svg" alt="Salmon sushi">
+                    <img class="sushi" src="./src/img/sushi.svg" alt="Salmon sushi" loading="lazy">
                 </div>
                 <div class="animat2">
-                    <img class="sushi" src="./src/img/sushi2.svg" alt="Cod sushi">
+                    <img class="sushi" src="./src/img/sushi2.svg" alt="Cod sushi" loading="lazy">
                 </div>
             </div>
             
@@ -81,7 +81,7 @@
         <a href="https://www.instagram.com/explore/tags/kyoto/" title="Instagram"><img srcset="./src/img/insta100.png ,
                                                                             ./src/img/insta150.png 1.5x,
                                                                             ./src/img/insta300.png 3x"                    
-                                                                src="./src/img/insta300.png" alt="Instagram"></a>
+                                                                src="./src/img/insta300.png" alt="Instagram" loading="lazy"></a>
     </footer>
 </body>
 </html>
