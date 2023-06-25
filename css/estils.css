@@ -111,9 +111,7 @@ nav a:visited{
 img{
     width: 80%;
 }
-.png{
-    width: 40%;
-}
+
 
 .allwhat{
     display: flex;
@@ -311,6 +309,7 @@ footer{
 }
 footer img{
     width: 40px;
+    height: 50px;
     padding-top: 0.5rem;
 }
 
@@ -354,6 +353,10 @@ footer img{
     }
     .logo{
         padding-bottom: 1rem;
+    }
+    .png{
+        width: 200px;
+        height: 200px;
     }
     
     .navfoscdetall{
@@ -460,31 +463,39 @@ footer img{
         text-decoration: underline;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-      }
-      .navdetallli::before{
+    }
+    .navdetallli::before{
         content: "";
-      }
-      .navfoscdetall{
+    }
+    .navfoscdetall{
         background-color: #1a1a1a;
-      }
-      figure{
+    }
+    figure{
         margin-left: 10%;
         margin-right: 10%;
         padding-bottom: 2rem;
-      }
-      button{
+    }
+    button{
         width: 5rem;
         height: 3rem;
         margin-bottom: 1.5rem;
         border-radius: 15%;
         font-size: 1.2rem;
-        
       }
+      .png{
+        width: 300px;
+        height: 300px;
+    } 
       footer ul li {
         display: inline-block;
         font-size: 1rem;
         font-weight: 400;
         padding-left: 0;
+    }
+    footer img{
+        width: 40px;
+        height: 50px;
+        padding-top: 0.5rem;
     }
     
     footer ul li::before {
@@ -616,36 +627,40 @@ footer img{
         display: flex;
         justify-content: center;
     }
-     .navdetallli::before{
+    .navdetallli::before{
         content: "";
-      }
-      figure{
+    }
+    figure{
         margin-left: 20%;
         margin-right: 20%;
         padding-bottom: 2rem;
-      }
-      .plink{
+    }
+    .plink{
         font-size: 1.5rem;
         line-height: 3rem;
-      }
-      button{
+    }
+    button{
         width: 7rem;
         height: 4rem;
         margin-bottom: 1.5rem;
         border-radius: 15%;
         font-size: 1.5rem;
-        
-      }
-      .sushitable{
+    
+    }
+    .sushitable{
         display: flex;
         justify-content: center;
-      }
-      .animat{
+    }
+    .animat{
         width: 30%;
-      }
-      .animat2{
+    }
+    .animat2{
         width: 30%;
-      }
+    }
+    .png{
+        width: 300px;
+        height: 300px;
+    }
     footer{
         font-size: 1.2rem;
     }
@@ -670,7 +685,11 @@ footer img{
         content: "";
     }
     
-    
+    footer img{
+        width: 60px;
+        height: 70px;
+        padding-top: 0.5rem;
+    }
    
 }
 
